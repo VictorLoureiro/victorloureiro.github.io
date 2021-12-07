@@ -15,6 +15,18 @@
                 </span>               
                 <div class="clearfix"></div>
             </div>
+            <!-- Post Categories -->
+            <div class="post-box-tags">
+                <ul class="tags">
+                    {% assign sortedCategories = post.categories | sort %}
+                    {% for category in sortedCategories %}
+                    <li>
+                     <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- End Categories -->
         </div>
     </div>
 </div>
