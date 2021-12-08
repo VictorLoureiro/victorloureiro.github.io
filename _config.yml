@@ -1,10 +1,10 @@
-title: "Affiliates"
+title: "Víctor Loureiro Sancho"
 email: wowthemesnet@gmail.com
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/miniature.png'
 author: Sal
 paginate: 30
 disqus: 'demowebsite'
