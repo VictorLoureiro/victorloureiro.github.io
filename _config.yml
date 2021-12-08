@@ -1,15 +1,15 @@
 title: "Víctor Loureiro Sancho"
-email: wowthemesnet@gmail.com
-timezone: UTC
+email: v.loureiro11@gmail.com
+timezone: CET
 baseurl: ""
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/miniature.png'
-author: Sal
+author: Víctor
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: en_uk
+lang: en_uk
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -20,26 +20,20 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
+categories: Machine Learning, Software, Security
+#ganalytics: UA-113961478-1
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    avatar: 'assets/images/sal.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/john.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/category/jekyll-themes/
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+  victor:
+    name: Víctor Loureiro Sancho
+    display_name: Víctor LS
+    avatar: 'assets/images/victor.png'
+    email: v.loureiro11@gmail.com
+    web: https://victorloureiro.github.io/
+    linkedin: https://www.linkedin.com/in/victorloureirosancho/
+    github: https://github.com/VictorLoureiro
+    description: "Telecom Engineer | Software Developer | ML Curious"
 
 # Social
 social:
