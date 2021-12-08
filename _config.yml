@@ -39,8 +39,12 @@ authors:
 social:
   linkedin: https://www.linkedin.com/in/victorloureirosancho/
   github: https://github.com/VictorLoureiro
-  
-  
+
+#Collections
+collections:
+  projects:
+    output: true
+
 # Plugins
 plugins: 
 - jekyll-paginate

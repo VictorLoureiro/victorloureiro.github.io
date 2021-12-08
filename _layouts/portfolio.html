@@ -4,11 +4,11 @@ layout: default
 permalink: "/portfolio.html"
 ---
 <div class="row">
-{% for project in site.projects %}
-	{% if project.title != null %}
-		{% if group == null or group == project.group %}
+{% for post in site.projects %}
+	{% if post.title != null %}
+		{% if group == null or group == post.group %}
 			<div class="col-md-4 mb-5">
-				{% include projectbox.html %}
+				{% include postbox.html %}
 			</div>
 		{% endif %}
 	{% endif %}

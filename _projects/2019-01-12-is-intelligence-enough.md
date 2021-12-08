@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Is Intelligence Enough"
 author: sal
 categories: [ Jekyll, tutorial ]

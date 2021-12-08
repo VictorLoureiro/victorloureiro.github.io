@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Red Riding Hood"
 author: sal
 categories: [ Jekyll, tutorial ]
