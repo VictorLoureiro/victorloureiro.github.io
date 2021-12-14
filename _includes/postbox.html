@@ -18,8 +18,7 @@
             <!-- Post Categories -->
             <div class="post-box-tags">
                 <ul class="tags">
-                    {% assign sortedCategories = post.categories | sort %}
-                    {% for category in sortedCategories %}
+                    {% for category in post.categories %}
                     <li>
                      <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
                     </li>
